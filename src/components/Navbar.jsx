@@ -7,7 +7,8 @@ const links = [
   { to: '/cardapio', label: 'Cardápio' },
   { to: '/delivery', label: 'Delivery' },
   { to: '/reservas', label: 'Reservas' },
-  { to: '/cadastro', label: 'Cadastro' }
+  { to: '/cadastro', label: 'Cadastro' },
+  { to: '/painel', label: 'Painel' }
 ];
 
 export default function Navbar() {

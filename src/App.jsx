@@ -6,6 +6,7 @@ import Cardapio from './pages/Cardapio.jsx';
 import Delivery from './pages/Delivery.jsx';
 import Reservas from './pages/Reservas.jsx';
 import CadastroCliente from './pages/CadastroCliente.jsx';
+import Painel from './pages/Painel.jsx';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/delivery" element={<Delivery />} />
           <Route path="/reservas" element={<Reservas />} />
           <Route path="/cadastro" element={<CadastroCliente />} />
+          <Route path="/painel" element={<Painel />} />
         </Routes>
       </main>
       <Footer />
